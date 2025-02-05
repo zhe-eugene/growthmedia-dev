@@ -1,0 +1,678 @@
+/* --------------------Mob version----------------------- */
+
+/*------------------- BLOCK 1: main-header ---------------*/
+.main-header {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.container {}
+
+
+
+.main-header-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    margin-bottom: 30px;
+}
+
+.preview-img {
+    margin-bottom: 12px
+}
+
+.preview-title {
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.preview-text {
+    font-weight: 400;
+    font-size: 21px;
+}
+
+
+
+
+/* -------------------- BLOCK 2:services----------------------- */
+
+.services {
+    padding-bottom: 60px;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.services-item {
+    border-radius: 10px;
+    width: 343px;
+    height: 100%;
+    box-shadow: 0 10px 20px 0 rgba(28, 39, 43, 0.08);
+    background: #e1ebee;
+}
+
+.img-wrapper {
+    border-radius: 6px;
+    width: 325px;
+    height: 283px;
+    background: #1c272b;
+    margin: 10px 10px 32px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-img {}
+
+.services-item:nth-of-type(1) .services-img {
+    width: 208px;
+    height: 140px;
+}
+
+.services-item:nth-of-type(2) .services-img {
+    width: 163px;
+    height: 181px;
+}
+
+.services-item:nth-of-type(3) .services-img {
+    width: 160px;
+    height: 171px;
+}
+
+.services-item:nth-of-type(4) .services-img {
+    width: 190px;
+    height: 137px;
+}
+
+.services-item:nth-of-type(5) .services-img {
+    width: 205px;
+    height: 199px;
+}
+
+
+.services-content-wrapper {
+    padding: 0 16px 29px 16px;
+}
+
+.services-subtitle {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    margin-bottom: 10px;
+}
+
+.services-text {
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.services-content-list {}
+
+.services-content-item {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+    ;
+}
+
+.services-content-item span {
+    font-weight: 700;
+}
+
+.services-content-item:last-child {
+    margin-bottom: 0;
+}
+
+.services-content-item::before {
+    content: '';
+    background-image: url('/assets/img/li-icon.svg');
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+
+/* --------------------BLOCK 4: ourgoal-yoursuccess----------------------- */
+
+.ourgoal-yoursuccess {
+    padding-bottom: 60px;
+}
+
+.ourgoal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.title-wraper {}
+
+.ourdoal-title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.ourgoal-img {
+    margin-left: 61px;
+    margin-bottom: 20px;
+}
+
+.ourgoal-content {}
+
+.ourgoal-content-img {
+    margin-bottom: 12px;
+}
+
+.ourgoal-content-text-1 {
+    font-weight: 400;
+    font-size: 21px;
+    text-align: left;
+    width: 343px;
+    margin-bottom: 20px;
+}
+
+.ourgoal-content-text-1 span {
+    font-weight: 700;
+}
+
+.ourgoal-content-text-2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.ourgoal-content-text-2 span {
+    font-weight: 700;
+
+}
+
+.ourgoal-content-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 100px;
+    width: 343px;
+    height: 70px;
+    box-shadow: 0 7px 30px 0 rgba(255, 115, 70, 0.5);
+    background: #ff7346;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 30px;
+
+}
+
+.ourgoal-content-btn::before {
+    content: 'Безкоштовна консультація';
+}
+
+body.en .ourgoal-content-btn::before {
+    content: 'Get a free consultation';
+}
+
+.ourgoal-content-btn span {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-left: auto;
+}
+
+/* ----------------------MEDIA--------------------------- */
+
+@media screen and (min-width: 768px) {
+
+    /*------------------- BLOCK 1: main-header ---------------*/
+
+    .main-header-title {
+        font-size: 56px;
+    }
+
+
+    /* --------------------BLOCK 3: ourgoal-yoursuccess services----------------------- */
+    .services-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .services-item {
+        width: 768px
+    }
+
+    .img-wrapper {
+        display: none;
+    }
+
+    /* --------------------BLOCK 4: ourgoal-yoursuccess----------------------- */
+
+    .ourgoal-yoursuccess {
+        padding-bottom: 60px;
+    }
+
+
+    .ourgoal-content {}
+
+    .ourgoal-content-img {
+        width: 57px;
+        margin-bottom: 12px;
+    }
+
+    .ourgoal-content-text-1 {
+        font-size: 26px;
+        width: 744px;
+        height: 100%;
+    }
+
+    .ourgoal-content-btn {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        max-width: 1200px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /*------------------- BLOCK 1: main-header ---------------*/
+    .main-header {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .main-header-title {
+        font-size: 65px;
+        margin-bottom: 50px;
+    }
+
+    .preview-wrapper-block {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .preview-wrapper {
+        max-width: 723px;
+    }
+
+    .preview-img {
+        width: 42px;
+        margin-bottom: 20px;
+    }
+
+    .preview-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .preview-text {
+        font-size: 28px;
+    }
+
+
+
+    /* -------------------- BLOCK 2:services----------------------- */
+
+    .services {
+        padding-bottom: 120px;
+    }
+
+    .services-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .services-item {
+        display: flex;
+        width: 1095px;
+    }
+
+    .img-wrapper {
+        display: flex;
+        width: 342px;
+        height: 297px;
+        margin: 10px 27px 10px 10px;
+    }
+
+    .services-item:nth-of-type(1) .services-img {
+        width: 264px;
+        height: 178px;
+    }
+
+    .services-item:nth-of-type(2) .services-img {
+        width: 181px;
+        height: 201px;
+    }
+
+    .services-item:nth-of-type(3) .services-img {
+        width: 182px;
+        height: 205px;
+    }
+
+    .services-item:nth-of-type(4) .services-img {
+        width: 220px;
+        height: 159px;
+    }
+
+    .services-item:nth-of-type(5) .services-img {
+        width: 241px;
+        height: 233px;
+    }
+
+    .services-content-wrapper {
+        width: 696px;
+        height: 231px;
+        padding: 42px 27px 69px 0px;
+    }
+
+    .services-subtitle {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+
+    .services-text {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .services-content-item {
+        font-size: 13px;
+    }
+
+
+    /* --------------------BLOCK 3: ourgoal-yoursuccess----------------------- */
+
+    .ourgoal-yoursuccess {
+        padding-bottom: 100px;
+    }
+
+    .ourgoal-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        gap: 50px;
+    }
+
+
+    .ourdoal-title {
+        font-weight: 600;
+        font-size: 58px;
+        line-height: 1;
+        letter-spacing: -0.05em;
+        text-align: left;
+    }
+
+
+    .ourgoal-img {
+        padding-top: 0;
+        margin-bottom: 0;
+        width: 243px;
+        height: 312px;
+    }
+
+    .ourgoal-content-wrapper {
+        padding-top: 37px;
+    }
+
+    .ourgoal-content-img {
+        width: 57px;
+        margin-bottom: 12px;
+    }
+
+    .ourgoal-content-text-1 {
+        font-size: 28px;
+        width: 617px;
+        height: 232px;
+    }
+
+    .ourgoal-content-text-1 span {
+        font-weight: 700;
+    }
+
+    .ourgoal-content-text-2 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.4;
+        margin-bottom: 40px;
+        text-align: left;
+        width: 415px;
+        height: 63px;
+    }
+
+    .ourgoal-content-text-2 span {
+        font-weight: 700;
+
+    }
+
+    .ourgoal-content-btn {
+        width: 426px;
+        margin: 0;
+    }
+
+    .ourgoal-content-btn::before {
+        content: 'Отримати безкоштовну консультацію';
+    }
+
+    body.en .ourgoal-content-btn::before {
+        content: 'Get a free consultation';
+    }
+
+    .ourgoal-content-btn span {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 100%;
+        margin-left: auto;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .container {
+        max-width: 1440px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    /*------------------- BLOCK 1: main-header ---------------*/
+    .main-header {
+        padding-top: 71px;
+        padding-bottom: 60px;
+    }
+
+    .main-header-title {
+        font-size: 80px;
+        margin-bottom: 60px;
+    }
+
+    .preview-wrapper-block {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .preview-wrapper {
+        max-width: 872px;
+    }
+
+    .preview-img {
+        width: 42px;
+        margin-bottom: 20px;
+    }
+
+    .preview-title {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .preview-text {
+        font-size: 34px;
+    }
+
+
+
+
+
+    /* -------------------- BLOCK 2:services----------------------- */
+
+    .services {
+        padding-bottom: 120px;
+    }
+
+    .services-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .services-item {
+        width: 1320px;
+    }
+
+    .img-wrapper {
+        width: 412px;
+        height: 358px;
+    }
+
+
+    .services-content-wrapper {
+        width: 838px;
+        height: 278px;
+        padding: 50px 33px 83px 0px;
+    }
+
+    .services-subtitle {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+
+    .services-text {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .services-content-item {
+        font-size: 16px;
+    }
+
+    /* --------------------BLOCK 3: ourgoal-yoursuccess----------------------- */
+
+    .ourgoal-yoursuccess {
+        padding-bottom: 120px;
+    }
+
+    .ourgoal-container {
+        gap: 61px;
+    }
+
+
+    .ourdoal-title {
+        font-size: 70px;
+    }
+
+
+    .ourgoal-img {
+        padding-top: 0;
+        margin-bottom: 0;
+        width: 293px;
+        height: 376px;
+    }
+
+    .ourgoal-content-wrapper {
+        padding-top: 37px;
+    }
+
+    .ourgoal-content-img {
+        width: 57px;
+        margin-bottom: 12px;
+    }
+
+    .ourgoal-content-text-1 {
+        font-size: 34px;
+        width: 744px;
+        height: 279px;
+    }
+
+    .ourgoal-content-text-1 span {
+        font-weight: 700;
+    }
+
+    .ourgoal-content-text-2 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.4;
+        margin-bottom: 40px;
+        text-align: left;
+        width: 500px;
+        height: 76px;
+    }
+
+    .ourgoal-content-text-2 span {
+        font-weight: 700;
+
+    }
+
+    .ourgoal-content-btn {
+        width: 426px;
+        margin: 0;
+    }
+
+    .ourgoal-content-btn::before {
+        content: 'Отримати безкоштовну консультацію';
+    }
+
+    body.en .ourgoal-content-btn::before {
+        content: 'Get a free consultation';
+    }
+
+    .ourgoal-content-btn span {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 100%;
+        margin-left: auto;
+    }
+}

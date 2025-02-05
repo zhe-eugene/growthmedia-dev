@@ -1,0 +1,408 @@
+/* BLOCK 2: contacts-directory */
+
+#contacts-directory .services__block-subitem::before {
+    display: none;
+}
+
+#contacts-directory .services__block-subitem {
+    text-indent: 0;
+    padding-left: 0;
+}
+
+
+
+/* --------------------Mob version----------------------- */
+
+/* BLOCK 3: contacts-feedback */
+
+
+.section-feedback {
+    padding-bottom: 60px;
+}
+
+.feedback-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.feedback-img-wrapper {
+    max-width: 100%;
+    height: 296px;
+    border-radius: 10px;
+    background-color: #e1ebee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-block-img {
+    max-width: 57.5%;
+    max-height: 80%;
+    height: auto;
+    object-fit: contain;
+}
+
+.form-wrapper {}
+
+.form-title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-text span {
+    font-weight: 700;
+}
+
+.feedback-form {}
+
+.feedback-field {
+    margin-bottom: 12px;
+}
+
+.feedback-label {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.4;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.input-wrapper {}
+
+.feedback-input {
+    border: 1px solid #e1ebee;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #f2f6f7;
+
+}
+
+.feedback-input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #787878;
+}
+
+
+.feedback-field-textarea {
+    margin-bottom: 30px;
+}
+
+.feedback-textarea {
+    border: 1px solid #e1ebee;
+    border-radius: 10px;
+    padding: 16px 20px 10px 20px;
+    width: 100%;
+    height: 86px;
+    background-color: #f2f6f7;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.feedback-textarea::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #787878;
+}
+
+.form-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 100px;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 7px 30px 0 rgba(255, 115, 70, 0.5);
+    background: #ff7346;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.form-button-text {
+    padding-left: 35px;
+    margin: 0 auto;
+}
+
+.form-button-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-left: auto;
+}
+
+/* -------------BLOCK 4: contacts-howfind------------ */
+
+
+.contacts-howfind {
+    padding-bottom: 60px;
+}
+
+
+.howfind-wrapper {
+    display: none;
+}
+
+.howfind-title-text-wrapper {}
+
+.howfind-title {}
+
+.howfind-text {}
+
+.howfind-map-wrapper {}
+
+.howfind-contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.howfind-contact-img {
+    width: 57px;
+    height: 29px;
+    margin-bottom: 20px;
+
+}
+
+.howfind-contact-toptext {
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.howfind-contact-bottomtex {
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.howfind-contact-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 100px;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 7px 30px 0 rgba(255, 115, 70, 0.5);
+    background: #ff7346;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.howfind-contact-text {
+    padding-left: 35px;
+    margin: 0 auto;
+}
+
+.howfind-contact-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-left: auto;
+}
+
+
+
+
+/* --------------------MEDIA----------------------- */
+
+@media screen and (min-width: 768px) {
+
+
+    /* BLOCK 3: contacts-feedback */
+    .form-btn {
+        width: 343px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    /* -------------BLOCK 4: contacts-howfind------------ */
+
+    .howfind-contact-btn {
+        width: 288px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    #contacts-directory .services__block-item {
+        width: calc((100% - 4 * 24px) / 4);
+    }
+
+    .section-feedback {
+        padding-bottom: 100 px;
+    }
+
+    /* BLOCK 3: contacts-feedback */
+
+    .feedback-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .feedback-img-wrapper {
+        width: calc(49% - 60px);
+        height: 560px;
+    }
+
+
+    .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(43% - 60px);
+    }
+
+    .form-title {
+        font-size: 42px;
+    }
+
+    .form-text {
+        font-size: 16px
+    }
+
+    .feedback-input {
+        width: 412px;
+
+    }
+
+    .feedback-input::placeholder {
+        font-size: 16px;
+    }
+
+    .feedback-textarea::placeholder {
+        font-size: 16px;
+    }
+
+    .feedback-input:focus {
+        border: 1px solid #ff7346;
+        outline: none;
+    }
+
+    .feedback-textarea:focus {
+        border: 1px solid #ff7346;
+        outline: none;
+    }
+
+    .form-btn {
+        width: 412px;
+    }
+
+
+    /* -------------BLOCK 4: contacts-howfind------------ */
+
+
+    .contacts-howfind {
+        padding-bottom: 100px;
+    }
+
+
+    .howfind-wrapper {
+        display: flex;
+        margin-bottom: 120px;
+    }
+
+    .howfind-title-text-wrapper {
+        padding-right: 105px;
+    }
+
+    .howfind-title {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 1;
+        letter-spacing: -0.05em;
+        margin-bottom: 20px;
+    }
+
+    .howfind-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .howfind-map-wrapper {}
+
+    .howfind-contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 872px;
+        margin: 0 auto;
+    }
+
+    .howfind-contact-img {
+        width: 57px;
+        height: 29px;
+        margin-bottom: 20px;
+
+    }
+
+    .howfind-contact-toptext {
+        font-size: 34px;
+    }
+
+    .howfind-contact-bottomtex {
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .form-title {
+        font-size: 50px;
+    }
+
+}

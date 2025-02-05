@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon.png"
+    />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- slick slider
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    -->
+
+    <!-- fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- styles && scripts (v2) -->
+
+    <link rel="stylesheet" href="/assets/css/layout.css" />
+    <link rel="stylesheet" href="/assets/css/faq.css" />
+  </head>
+  <body class="ua">
+    <!-- MOB MENU -->
+
+    <div data-modal class="mob-menu">
+      <div class="container mob-menu-container">
+        <ul class="mob-language-list">
+          <li class="mob-language-item active" data-language="ua">Укр</li>
+          <li class="mob-language-item" data-language="en">Eng</li>
+        </ul>
+        <button type="button" class="menu-close-btn" data-modal-close>
+          <img
+            src="/assets/img/cross.svg"
+            alt="Close button"
+            class="header-mob-icon"
+          />
+        </button>
+
+        <nav class="mob-navigation">
+          <ul class="mob-navigation-list">
+            <li class="mob-navigation-item">
+              <input
+                type="checkbox"
+                id="submenu-toggle"
+                class="submenu-checkbox"
+              />
+              <label
+                for="submenu-toggle"
+                class="submenu-title mob-navigation-link"
+              >
+                Послуги
+                <span class="submenu-arrow"
+                  ><img src="/assets/img/menu-arrow.svg" alt="menu-arrow"
+                /></span>
+              </label>
+              <ul class="submenu-list">
+                <li class="submenu-item">
+                  <a href="" class="submenu-link">Реклама в інтернеті</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="" class="submenu-link">SMM-послуги</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="" class="submenu-link">SEO-послуги</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="" class="submenu-link">Розробка сайтів</a>
+                </li>
+              </ul>
+            </li>
+            <li class="mob-navigation-item">
+              <a href="" class="mob-navigation-link">Портфоліо</a>
+            </li>
+            <li class="mob-navigation-item">
+              <a href="" class="mob-navigation-link">Блог</a>
+            </li>
+            <li class="mob-navigation-item">
+              <a href="" class="mob-navigation-link">Про нас</a>
+            </li>
+            <li class="mob-navigation-item">
+              <a href="" class="mob-navigation-link">Контакти</a>
+            </li>
+            <li class="mob-navigation-item">
+              <a href="" class="mob-navigation-link">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button type="button" class="mob-menu-btn data-modal-open">
+          Безкоштовна консультація
+          <span>
+            <img
+              src="/assets/img/arrow-btn.png"
+              width="27"
+              height="27"
+              alt="arrow-btn-btn"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+
+   <header class="header">
+      <div class="container">
+        <div class="container-header">
+          <nav class="header-nav">
+            <a class="header-logo-link" href="/ua/index.html"
+              ><img
+                src="/assets/img/logo-header.svg"
+                alt="Logo"
+                width="127"
+                height="29"
+                class="header-logo-img"
+              />
+            </a>
+            <div class="header-wrapper">
+              <ul class="header-list">
+                <li class="header-item header-submenu">
+                  <a href="/ua/services.html" class="header-link">
+                    Послуги<span class="submenu-arrow"
+                      ><img src="/assets/img/menu-arrow.svg" alt="menu-arrow"
+                    /></span>
+                  </a>
+                  <ul class="header-submenu-list">
+                    <li class="header-submenu-item">
+                      <a
+                        href="/ua/internet-advertising.html"
+                        class="header-submenu-link"
+                        >Реклама в інтернеті</a
+                      >
+                    </li>
+                    <li class="header-submenu-item">
+                      <a
+                        href="/ua/smm-services.html"
+                        class="header-submenu-link"
+                        >SMM-послуги</a
+                      >
+                    </li>
+                    <li class="header-submenu-item">
+                      <a
+                        href="/ua/seo-services.html"
+                        class="header-submenu-link"
+                        >SEO-послуги</a
+                      >
+                    </li>
+                    <li class="header-submenu-item">
+                      <a
+                        href="/ua/website-development.html"
+                        class="header-submenu-link"
+                        >Розробка сайтів</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="header-item">
+                  <a href="/ua/portfolio.html" class="header-link">Портфоліо</a>
+                </li>
+                <li class="header-item">
+                  <a href="/ua/blog.html" class="header-link">Блог</a>
+                </li>
+                <li class="header-item">
+                  <a href="/ua/about-us.html" class="header-link">Про нас</a>
+                </li>
+                <li class="header-item">
+                  <a href="/ua/contacts.html" class="header-link">Контакти</a>
+                </li>
+                <li class="header-item">
+                  <a href="/ua/faq.html" class="header-link active">FAQ</a>
+                </li>
+              </ul>
+              <div class="language-switcher">
+                <span class="current-language"
+                  >Укр<img
+                    class="current-language-img submenu-arrow"
+                    src="/assets/img/menu-arrow.svg"
+                    alt="menu-arrow"
+                /></span>
+                <div class="dropdown">
+                  <a href="/index.html">Eng</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <button type="button" class="header-btn">
+            Зв'язатись
+            <img
+              class="header-btn-img"
+              src="/assets/img/contact-btn-arrow.svg"
+              width="16"
+              height="14"
+              alt="arrow-btn-btn"
+            />
+          </button>
+
+          <div class="mob-menu-icon" data-modal-open>
+            <img src="/assets/img/call-menu-icon.svg" alt="call-menu" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- BLOCK 1:  blog-advertising-->
+
+      <section class="section-advertising" id="faq-main">
+        <div class="container">
+          <h1 class="main__block__title">Часті запитання (FAQ)</h1>
+          <div class="main__block__wrapper">
+            <div class="main__block__img-wrapper">
+              <img
+                src="/assets/img/faq-main-img.png"
+                alt=""
+                class="main__block__img"
+              />
+            </div>
+            <div class="main__block__content-wrapper">
+              <img
+                src="/assets/img/greetings-icon.png"
+                alt="advertising-icon"
+                class="main__block__content-icon"
+              />
+              <p class="main__block__text-1">
+                Маєте запитання? Ми підготували відповіді на найпоширеніші з них
+              </p>
+              <p class="main__block__text-2">
+                Якщо ви не знайшли потрібної інформації, будь ласка, зв’яжіться
+                з нами через форму зворотного зв’язку або інший зручний спосіб.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOCK 2: faq-question-answer-->
+
+      <section class="faq-block" id="faq-block">
+        <div class="container">
+          <div class="faq">
+            <div class="faq-item">
+              <label class="faq-title" for="faq_1"
+                >Як замовити послуги вашого агентства?</label
+              >
+
+              <label class="faq-btn" for="faq_1">
+                <img
+                  src="/assets/img/faq-plus.svg"
+                  alt="+"
+                  class="faq-btn-img plus"
+                />
+                <img
+                  src="/assets/img/faq-minus.svg"
+                  alt="-"
+                  class="faq-btn-img minus"
+                />
+              </label>
+
+              <input class="faq-input" type="checkbox" id="faq_1" />
+
+              <div class="faq-text">
+                <ul class="faq-text-list">
+                  <li class="faq-text-item">
+                    Залиште заявку через контактну форму або зателефонуйте нам
+                  </li>
+                  <li class="faq-text-item">
+                    Ми зв’яжемося з вами, щоб обговорити деталі проєкту
+                  </li>
+                  <li class="faq-text-item">
+                    Підготуємо пропозицію, враховуючи специфіку вашого бренду
+                  </li>
+                  <li class="faq-text-item">
+                    Після узгодження всіх деталей підписуємо договір і починаємо
+                    роботу над проєктом
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <label class="faq-title" for="faq_2"
+                >Скільки часу займає запуск рекламної кампанії?</label
+              >
+
+              <label class="faq-btn" for="faq_2">
+                <img
+                  src="/assets/img/faq-plus.svg"
+                  alt="+"
+                  class="faq-btn-img plus"
+                />
+                <img
+                  src="/assets/img/faq-minus.svg"
+                  alt="-"
+                  class="faq-btn-img minus"
+                />
+              </label>
+
+              <input class="faq-input" type="checkbox" id="faq_2" />
+
+              <div class="faq-text">
+                <ul class="faq-text-list">
+                  <li class="faq-text-item"></li>
+                  
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <label class="faq-title" for="faq_3"
+                >Які гарантії ви надаєте?</label
+              >
+
+              <label class="faq-btn" for="faq_3">
+                <img
+                  src="/assets/img/faq-plus.svg"
+                  alt="+"
+                  class="faq-btn-img plus"
+                />
+                <img
+                  src="/assets/img/faq-minus.svg"
+                  alt="-"
+                  class="faq-btn-img minus"
+                />
+              </label>
+
+              <input class="faq-input" type="checkbox" id="faq_3" />
+
+              <div class="faq-text">
+                <ul class="faq-text-list">
+                  <li class="faq-text-item"></li>
+                  
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <label class="faq-title" for="faq_4"
+                >Як відбувається оплата послуг?</label
+              >
+
+              <label class="faq-btn" for="faq_4">
+                <img
+                  src="/assets/img/faq-plus.svg"
+                  alt="+"
+                  class="faq-btn-img plus"
+                />
+                <img
+                  src="/assets/img/faq-minus.svg"
+                  alt="-"
+                  class="faq-btn-img minus"
+                />
+              </label>
+
+              <input class="faq-input" type="checkbox" id="faq_4" />
+
+              <div class="faq-text">
+                <ul class="faq-text-list">
+                  <li class="faq-text-item"></li>
+                  
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <label class="faq-title" for="faq_5"
+                >Як швидко я побачу результати від SEO-просування?</label
+              >
+
+              <label class="faq-btn" for="faq_5">
+                <img
+                  src="/assets/img/faq-plus.svg"
+                  alt="+"
+                  class="faq-btn-img plus"
+                />
+                <img
+                  src="/assets/img/faq-minus.svg"
+                  alt="-"
+                  class="faq-btn-img minus"
+                />
+              </label>
+
+              <input class="faq-input" type="checkbox" id="faq_5" />
+
+              <div class="faq-text">
+                <ul class="faq-text-list">
+                  <li class="faq-text-item"></li>
+                  
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <label class="faq-title" for="faq_6"
+                >Чи можу я отримати консультацію перед початком співпраці?</label
+              >
+
+              <label class="faq-btn" for="faq_6">
+                <img
+                  src="/assets/img/faq-plus.svg"
+                  alt="+"
+                  class="faq-btn-img plus"
+                />
+                <img
+                  src="/assets/img/faq-minus.svg"
+                  alt="-"
+                  class="faq-btn-img minus"
+                />
+              </label>
+
+              <input class="faq-input" type="checkbox" id="faq_6" />
+
+              <div class="faq-text">
+                <ul class="faq-text-list">
+                  <li class="faq-text-item"></li>
+                  
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <label class="faq-title" for="faq_7"
+                >Що, якщо мені потрібні кілька послуг одночасно?</label
+              >
+
+              <label class="faq-btn" for="faq_7">
+                <img
+                  src="/assets/img/faq-plus.svg"
+                  alt="+"
+                  class="faq-btn-img plus"
+                />
+                <img
+                  src="/assets/img/faq-minus.svg"
+                  alt="-"
+                  class="faq-btn-img minus"
+                />
+              </label>
+
+              <input class="faq-input" type="checkbox" id="faq_7" />
+
+              <div class="faq-text">
+                <ul class="faq-text-list">
+                  <li class="faq-text-item"></li>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOCK 3: faq-generalization. -->
+      <section class="section-generalization" id="faq-generalization">
+        <div class="container">
+          <div class="generalization__block-wrapper">
+            <div class="generalization__block-content-wrapper">
+              <h2 class="generalization__block-title">
+                Не знайшли відповіді на своє питання?
+              </h2>
+              <p class="generalization__block-text">
+                <span>Напишіть нам, </span>і наші менеджери з радістю вас
+                проконсультують!
+              </p>
+              <button class="generalization__block-btn" href="">
+                Задати запитання
+                <span>
+                  <img
+                    src="/assets/img/arrow-btn.png"
+                    width="27"
+                    height="27"
+                    alt="arrow-btn-btn"
+                  />
+                </span>
+              </button>
+            </div>
+            <div class="generalization__block-img-wrapper">
+              <img
+                src="/assets/img/faq-end-block-img.png"
+                alt=""
+                class="generalization__block-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <a class="footer-logo-link" href="/ua/index.html"
+            ><img
+              src="/assets/img/logo-footer.svg"
+              alt="Logo footer"
+              width="127"
+              height="29"
+              class="footer-logo-img"
+            />
+          </a>
+          <div class="ser-title-nav-wrapper">
+            <p class="footer-services-title">Послуги</p>
+            <div class="ser-nav-wrapper">
+              <ul class="footer-services-list">
+                <li class="footer-services-item">
+                  <a
+                    href="/ua/internet-advertising.html"
+                    class="footer-services-link"
+                    >Реклама в інтернеті</a
+                  >
+                </li>
+                <li class="footer-services-item">
+                  <a href="/ua/smm-services.html" class="footer-services-link"
+                    >SMM-послуги</a
+                  >
+                </li>
+                <li class="footer-services-item">
+                  <a href="/ua/seo-services.html" class="footer-services-link"
+                    >SEO-послуги</a
+                  >
+                </li>
+                <li class="footer-services-item">
+                  <a href="" class="footer-services-link">Розробка сайтів</a>
+                </li>
+              </ul>
+
+              <ul class="footer-nav-list">
+                <li class="footer-nav-item">
+                  <a href="/ua/portfolio.html" class="footer-nav-link"
+                    >Портфоліо</a
+                  >
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/ua/blog.html" class="footer-nav-link">Блог</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/ua/about-us.html" class="footer-nav-link"
+                    >Про нас</a
+                  >
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/ua/faq.html" class="footer-nav-link"
+                    >Часті запитання (FAQ)</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact-wrapper">
+            <p class="footer-contact-title">Контакти</p>
+            <a
+              href="mailto:office@roigrowthmedia.com"
+              class="footer-address-link"
+              ><img
+                src="/assets/img/mail-icon.svg"
+                alt="mail-icon"
+                width="24"
+                height="24"
+                class="footer-address-link-icon"
+              />office@roigrowthmedia.com</a
+            >
+          </div>
+
+          <div class="footer-soc-wrapper">
+            <p class="footer-soc-title">Стежити за нами</p>
+            <ul class="footer-soc-list">
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link"
+                  ><img
+                    src="/assets/img/soc-icon-f.svg"
+                    alt="facebook"
+                    class="footer-soc-img"
+                    width="10"
+                /></a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link"
+                  ><img
+                    src="/assets/img/soc-icon-i.svg"
+                    alt="instagram"
+                    class="footer-soc-img"
+                    width="28"
+                /></a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link"
+                  ><img
+                    src="/assets/img/soc-icon-li.svg"
+                    alt="linkedin"
+                    class="footer-soc-img"
+                    width="25"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="coryright-text">© ROI Growth Media 2025</p>
+      </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

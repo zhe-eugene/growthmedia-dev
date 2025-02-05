@@ -1,0 +1,152 @@
+/* --------------------Mob version----------------------- */
+
+/*------------ BLOCK 2: faq-question-answer-------*/
+
+.faq-block {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.faq {
+    max-width: 872px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border: 1px solid #e1ebee;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    transition: background 0.2s ease-out, border 0.2s ease-out;
+    position: relative;
+}
+
+.faq-title {
+    padding: 10px 77px 10px 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+.faq-btn {
+    border: 1px solid #ff7346;
+    border-radius: 8px;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.faq-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+
+.faq-btn-img {
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
+}
+
+
+.faq-btn-img.plus {
+    opacity: 1;
+}
+
+
+.faq-btn-img.minus {
+    opacity: 0;
+}
+
+
+.faq-item:hover {
+    background-color: #f2f6f7;
+    border: 1px solid #ff7346;
+}
+
+
+.faq-input:checked~.faq-btn {
+    background-color: #ff5722;
+}
+
+.faq-input:checked~.faq-btn .faq-btn-img.plus {
+    opacity: 0;
+}
+
+.faq-input:checked~.faq-btn .faq-btn-img.minus {
+    opacity: 1;
+}
+
+.faq-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    padding: 0;
+}
+
+.faq-input:checked~.faq-text {
+    max-height: 300px;
+    padding: 10px 10px 16px 16px;
+
+}
+
+
+.faq-text-item {
+    font-weight: 400;
+    font-size: 16px;
+    text-indent: -1.2em;
+    padding-left: 1em;
+}
+
+.faq-text-item::before {
+    content: '';
+    background-image: url('/assets/img/li-icon.svg');
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+    margin-right: 7px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+    /* BLOCK 3: contacts-feedback */
+    .form-btn {
+        width: 343px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+    /* BLOCK 3: blog-generalization */
+
+
+}

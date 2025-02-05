@@ -1,0 +1,1039 @@
+/* --------------------Mob version----------------------- */
+
+
+
+/* --------------------MAIN----------------------- */
+
+/* --------------------BLOCK 1: main-banner----------------------- */
+
+.main-banner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.main-banner-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 12px;
+  margin-bottom: 40px;
+}
+
+.main-banner-text {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.main-banner-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 100px;
+  width: 343px;
+  height: 70px;
+  box-shadow: 0 7px 30px 0 rgba(255, 115, 70, 0.5);
+  background: #ff7346;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+
+
+.main-banner-btn::before {
+  content: 'Безкоштовна консультація';
+}
+
+body.en .main-banner-btn::before {
+  content: 'Get a free consultation';
+}
+
+.main-banner-btn span {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 100%;
+  margin-left: auto;
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 343px;
+  height: 317px;
+  background: #e1ebee;
+}
+
+.main-banner-img {
+  width: 283px;
+  height: 267px;
+}
+
+/* --------------------BLOCK 2: greetings----------------------- */
+
+
+.greetings-wraper {}
+
+.greetings-img {
+  margin-bottom: 12px;
+}
+
+.greetings-text {
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.greetings-text span {
+  font-weight: 700;
+}
+
+/* --------------------BLOCK 3: quality----------------------- */
+
+.quality {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {}
+
+.quality-title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 30px;
+}
+
+.quality-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+
+.quality-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.quality-item {
+  border-radius: 10px;
+  padding: 16px;
+  width: 343px;
+  height: 100%;
+  box-shadow: 0 10px 20px 0 rgba(28, 39, 43, 0.08);
+  background: #e1ebee;
+  display: flex;
+  gap: 17px;
+}
+
+.quality-item-wrapper {
+  width: 212px;
+}
+
+.quality-subtitle {
+  font-weight: 600;
+  font-size: 21px;
+  letter-spacing: -0.05em;
+  margin-bottom: 10px;
+}
+
+.quality-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.quality-img-wrapper {
+  background-color: #f2f6f7;
+  border-radius: 8px;
+  width: 82px;
+  height: 81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* --------------------BLOCK 4: offer----------------------- */
+
+
+.offer-title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.offer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.offer-item {
+  border-radius: 10px;
+  padding: 30px 16px 20px 16px;
+  width: 343px;
+  height: 380px;
+  box-shadow: 0 4px 20px 0 rgba(28, 39, 43, 0.3);
+  background: #1c272b;
+}
+
+.offer-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-img {
+  margin-bottom: 20px;
+}
+
+
+.offer-subtitle {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.offer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+  height: 44px;
+}
+
+.offerlink-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #ff7346;
+}
+
+.offer-link-img-wrapper {
+  width: 39px;
+  height: 39px;
+  border-radius: 100%;
+  border: 1px solid #ff7346;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-link-img {}
+
+
+
+/* --------------------BLOCK 5: ourgoal-yoursuccess----------------------- */
+
+.ourgoal-yoursuccess {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.ourgoal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.title-wraper {}
+
+.ourdoal-title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.ourgoal-img {
+  margin-left: 61px;
+  margin-bottom: 20px;
+}
+
+.ourgoal-content {}
+
+.ourgoal-content-img {
+  margin-bottom: 12px;
+}
+
+.ourgoal-content-text-1 {
+  font-weight: 400;
+  font-size: 21px;
+  text-align: left;
+  width: 343px;
+  margin-bottom: 20px;
+}
+
+.ourgoal-content-text-1 span {
+  font-weight: 700;
+}
+
+.ourgoal-content-text-2 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.ourgoal-content-text-2 span {
+  font-weight: 700;
+
+}
+
+.ourgoal-content-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 100px;
+  width: 343px;
+  height: 70px;
+  box-shadow: 0 7px 30px 0 rgba(255, 115, 70, 0.5);
+  background: #ff7346;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 30px;
+
+}
+
+.ourgoal-content-btn::before {
+  content: 'Безкоштовна консультація';
+}
+
+body.en .ourgoal-content-btn::before {
+  content: 'Get a free consultation';
+}
+
+.ourgoal-content-btn span {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 100%;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+/* --------------------MEDIA----------------------- */
+
+
+@media screen and (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+
+  }
+
+  /* --------------------MAIN----------------------- */
+
+  /* --------------------BLOCK 1: main-banner----------------------- */
+
+  .container-main-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 547px;
+    height: auto;
+    background: #e1ebee;
+  }
+
+  .main-banner-img {
+    width: 435px;
+    height: 100%;
+  }
+
+  /* --------------------BLOCK 2: greetings----------------------- */
+
+
+
+  /* --------------------BLOCK 3: quality----------------------- */
+
+  .quality {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .quality-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.05em;
+  }
+
+  .quality-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .quality-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .quality-item {
+    width: 350px;
+    height: 140px;
+  }
+
+
+  .quality-img-wrapper {
+    height: 81px;
+    margin-left: auto;
+  }
+
+
+
+  /* --------------------BLOCK 4: offer----------------------- */
+
+
+  .offer-title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .offer-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px 24px;
+
+  }
+
+  .offer-item {
+    width: 343px;
+    height: 380px;
+  }
+
+
+
+  .offer-link-img {}
+
+  /* --------------------BLOCK 5: ourgoal-yoursuccess----------------------- */
+
+  .ourgoal-yoursuccess {
+    padding-top: 60px;
+  }
+
+
+  .ourgoal-content {}
+
+  .ourgoal-content-img {
+    width: 57px;
+    margin-bottom: 12px;
+  }
+
+  .ourgoal-content-text-1 {
+    font-size: 26px;
+    width: 744px;
+    height: 100%;
+  }
+
+  .ourgoal-content-btn {
+    margin: 0 auto;
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+  /* --------------------MAIN----------------------- */
+
+
+
+
+  /* --------------------BLOCK 1: main-banner----------------------- */
+
+  .main-banner-wrapper {
+    margin-top: 36px;
+  }
+
+  .main-banner {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+
+  .main-banner-title {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    width: 540px;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
+  .main-banner-text {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 95px;
+    width: 414px;
+    height: 100%;
+  }
+
+  .main-banner-btn::before {
+    content: 'Отримати безкоштовну консультацію';
+  }
+
+  body.en .main-banner-btn::before {
+    content: 'Get a free consultation';
+  }
+
+  .main-banner-btn {
+    width: 426px;
+    margin: 0;
+  }
+
+  .img-wrapper {
+    border-radius: 10px;
+    width: 537px;
+    height: 495px;
+    background: #e1ebee;
+  }
+
+  .main-banner-img {
+    width: 444px;
+    height: 419px;
+  }
+
+  /* --------------------BLOCK 2: greetings----------------------- */
+
+
+  .greetings-block-wraper {
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  .greetings-wraper {
+    max-width: 724px;
+    height: auto;
+  }
+
+  .greetings-img {
+    margin-bottom: 12px;
+  }
+
+
+  .greetings-text {
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  .greetings-text span {
+    font-weight: 700;
+  }
+
+  /* --------------------BLOCK 3: quality----------------------- */
+
+  .quality {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .quality-wrapper {
+    display: flex;
+    gap: 125px;
+  }
+
+  .quality-title {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .quality-list {
+    justify-content: start;
+    align-items: stretch;
+  }
+
+  .quality-item {
+    line-height: 1.5;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 10px 20px 0 rgba(28, 39, 43, 0.08);
+    background: #e1ebee;
+    display: flex;
+    width: calc((100% - 24px) / 2);
+  }
+
+
+  .quality-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 220px;
+  }
+
+  .quality-subtitle {
+    font-size: 23px;
+    margin-bottom: 5px;
+  }
+
+  .quality-img-wrapper {
+    height: 77px;
+  }
+
+
+  /* --------------------BLOCK 4: offer----------------------- */
+
+  .offer-title {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin-bottom: 42px;
+  }
+
+  .offer-subtitle {
+    font-size: 20px;
+  }
+
+  .offer-text {
+    font-size: 14px;
+  }
+
+
+  .offer-img {
+    margin-bottom: 30px;
+  }
+
+  .offer-list {
+    gap: 24px 10px;
+  }
+
+  .offer-item {
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: calc((100% - 3 * 10px) / 4);
+  }
+
+
+  .offer-text {
+    margin-bottom: 30px;
+  }
+
+  /* --------------------BLOCK 5: ourgoal-yoursuccess----------------------- */
+
+  .ourgoal-yoursuccess {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .ourgoal-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+  }
+
+
+  .ourdoal-title {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-align: left;
+  }
+
+
+  .ourgoal-img {
+    padding-top: 0;
+    margin-bottom: 0;
+    width: 243px;
+    height: 312px;
+  }
+
+  .ourgoal-content-wrapper {
+    padding-top: 37px;
+  }
+
+  .ourgoal-content-img {
+    width: 57px;
+    margin-bottom: 12px;
+  }
+
+  .ourgoal-content-text-1 {
+    font-size: 28px;
+    width: 617px;
+    height: 232px;
+  }
+
+  .ourgoal-content-text-1 span {
+    font-weight: 700;
+  }
+
+  .ourgoal-content-text-2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: left;
+    width: 415px;
+    height: 63px;
+  }
+
+  .ourgoal-content-text-2 span {
+    font-weight: 700;
+
+  }
+
+  .ourgoal-content-btn {
+    width: 426px;
+    margin: 0;
+  }
+
+  .ourgoal-content-btn::before {
+    content: 'Отримати безкоштовну консультацію';
+  }
+
+  body.en .ourgoal-content-btn::before {
+    content: 'Get a free consultation';
+  }
+
+  .ourgoal-content-btn span {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-left: auto;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+
+
+
+  .container {
+    max-width: 1440px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  /* --------------------MAIN----------------------- */
+
+
+
+
+  /* --------------------BLOCK 1: main-banner----------------------- */
+
+
+
+  .main-banner {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+
+  .main-banner-wrapper {
+    margin-top: 44px;
+
+  }
+
+  .main-banner-title {
+    font-size: 80px;
+    width: 649px;
+    height: 240px;
+    margin-bottom: 30px;
+  }
+
+  .main-banner-text {
+    font-size: 24px;
+    margin-bottom: 114px;
+    width: 499px;
+    height: 99px;
+  }
+
+
+
+  .img-wrapper {
+    border-radius: 10px;
+    width: 647px;
+    height: 597px;
+    background: #e1ebee;
+  }
+
+  .main-banner-img {
+    width: 535px;
+    height: 505px;
+  }
+
+  /* --------------------BLOCK 2: greetings----------------------- */
+
+
+
+  .greetings-wraper {
+    max-width: 872px;
+    height: auto;
+  }
+
+
+
+  .greetings-text {
+    font-size: 34px;
+  }
+
+
+
+  /* --------------------BLOCK 3: quality----------------------- */
+
+  .quality {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+
+  .quality-title {
+    font-size: 70px;
+  }
+
+
+  .quality-item {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 424px;
+    height: 163px;
+    box-shadow: 0 10px 20px 0 rgba(28, 39, 43, 0.08);
+    background: #e1ebee;
+    display: flex;
+    width: calc((100% - 24px) / 2);
+  }
+
+
+  .quality-item-wrapper {
+    width: 265px;
+  }
+
+  .quality-text {
+    font-size: 16px;
+  }
+
+  .quality-subtitle {
+    font-size: 28px;
+    margin-bottom: 11px;
+  }
+
+  .quality-img-wrapper {
+    height: 93px;
+  }
+
+  .quality-img {
+    width: 52px;
+  }
+
+  /* --------------------BLOCK 4: offer----------------------- */
+
+
+  .offer-title {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+
+  .offer-subtitle {
+    font-size: 28px;
+  }
+
+  .offer-list {
+    gap: 24px 24px;
+  }
+
+  .offer-text {
+    font-size: 16px;
+  }
+
+
+  .offer-img {
+    margin-bottom: 40px;
+  }
+
+  .offer-item {
+    border-radius: 10px;
+    height: auto;
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .offer-text {
+
+    margin-bottom: 42px;
+  }
+
+
+
+  /* --------------------BLOCK 5: ourgoal-yoursuccess----------------------- */
+
+  .ourgoal-yoursuccess {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .ourgoal-container {
+    gap: 61px;
+  }
+
+
+  .ourdoal-title {
+    font-size: 70px;
+  }
+
+
+  .ourgoal-img {
+    padding-top: 0;
+    margin-bottom: 0;
+    width: 293px;
+    height: 376px;
+  }
+
+  .ourgoal-content-wrapper {
+    padding-top: 37px;
+  }
+
+  .ourgoal-content-img {
+    width: 57px;
+    margin-bottom: 12px;
+  }
+
+  .ourgoal-content-text-1 {
+    font-size: 34px;
+    width: 744px;
+    height: 279px;
+  }
+
+  .ourgoal-content-text-1 span {
+    font-weight: 700;
+  }
+
+  .ourgoal-content-text-2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: left;
+    width: 500px;
+    height: 76px;
+  }
+
+  .ourgoal-content-text-2 span {
+    font-weight: 700;
+
+  }
+
+  .ourgoal-content-btn {
+    width: 426px;
+    margin: 0;
+  }
+
+  .ourgoal-content-btn::before {
+    content: 'Отримати безкоштовну консультацію';
+  }
+
+  body.en .ourgoal-content-btn::before {
+    content: 'Get a free consultation';
+  }
+
+  .ourgoal-content-btn span {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-left: auto;
+  }
+
+
+}

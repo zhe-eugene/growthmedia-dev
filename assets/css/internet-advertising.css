@@ -1,0 +1,156 @@
+/* --------------------Mob version----------------------- */
+
+
+
+/*---------- BLOCK 4: advertising-how-work------------ */
+
+.advertising-how-work {
+    padding-bottom: 60px;
+}
+
+.how-work-title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.how-work-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+.how-work-item {
+    display: flex;
+    gap: 12px;
+    position: relative;
+}
+
+.how-work-item::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background: #1c272b;
+    top: 100%;
+    bottom: -100%;
+    left: 25px;
+}
+
+.how-work-item:last-child::after {
+    display: none;
+}
+
+
+.big-circle-wrapper {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background-color: #fed4c8;
+    flex: 0 0 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-circle-wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: #ff7346;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-text {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+}
+
+.how-work-text-top,
+.how-work-text-bot {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.how-work-text span {
+    font-weight: 700;
+    /* display: block; */
+}
+
+@media screen and (min-width: 768px) {
+    .how-work-item {
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .advertising-how-work {
+        padding-bottom: 100px;
+    }
+
+    .how-work-list {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+        position: relative;
+    }
+
+
+    .how-work-item::after {
+        display: none;
+    }
+
+    .how-work-list::before {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 100%;
+        background-color: #1c272b;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+
+    .how-work-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 244px;
+        position: relative;
+    }
+
+    .circle-text {
+
+        position: absolute;
+    }
+
+    .how-work-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .how-work-item:nth-child(even) .how-work-text {
+        top: auto;
+        bottom: 0;
+    }
+
+
+}

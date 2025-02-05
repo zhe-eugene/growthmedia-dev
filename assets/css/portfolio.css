@@ -1,0 +1,5 @@
+@media screen and (min-width: 1200px) {
+    #portfolio-advantages .advantages__block-item {
+        width: calc((100% - 3*24px) / 3);
+    }
+}
